@@ -1,0 +1,15 @@
+﻿<Page x:Class="WpfApp1.InfoPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="InfoPage">
+
+    <Grid Background="#FFF2F6F7">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="328" Margin="33,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" 
+                   Width="709" FontSize="20" FontWeight="Normal" FontFamily="Ebrima" FontStyle="Normal" Background="#FFF2F6F7"><Run Text="SWD (SmartWatch Data)"/><Run Text=" aplikacij"/><Run Text="a je"/><Run Language="hr-hr" Text=" "/><Run Text="koja omogućava jasan i jednostavan pregled spremljenih podataka s pametnog sata. Ti podatci uključ"/><Run Text="uju"/><Run Text=" povijest zabilježenih vježbi na određeni datum i njihovo trajanje, podatke o otkucajima srca"/><Run Text=" "/><Run Text=" (najniži, najviši i prosječni broj otkucaja)"/><Run Text=", broj prijeđenih koraka te zabilježen broj sati sna tokom noći."/><LineBreak/><Run Text="Osim p"/><Run Text="regledno"/><Run Text="g"/><Run Text=" i jasno"/><Run Text="g"/><Run Text=" "/><Run Text="prikaza"/><Run Text=" zabilježenih"/><Run Text=" "/><Run Text="podataka "/><Run Text="u"/><Run Text=" bazi, i"/><Run Text="zravno se"/><Run Text=" u aplikaciji"/><Run Text=" mogu"/><Run Text=" i"/><Run Text=" postaviti ciljev"/><Run Text="i"/><Run Text=" za buduća trajanja aktivnosti"/><Run Text=" poput s"/><Run Text="pavanja"/><Run Text=" ili vježbanja"/><Run Text=". "/><LineBreak/><Run/><LineBreak/><Run Text="Za mijenjanje prozora koristite navigacijsku traku pri vrhu stranice."/></TextBlock>
+    </Grid>
+</Page>

@@ -1,0 +1,25 @@
+﻿<Page x:Class="WpfApp1.HeartRatesSample"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="HeartRatesSample">
+
+    <Grid Background="#FFF2F6F7">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="60" Margin="26,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="333" FontSize="20" FontFamily="Bodoni MT" FontWeight="Bold" Foreground="#FF09D1FD"><Run Text="Recorded "/><Run Text="Heart rate data"/></TextBlock>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="52" Margin="23,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="293" FontSize="18"><Run Language="hr-hr" Text="The Lowest Heart Rate Was"/></TextBlock>
+        <TextBlock x:Name="Number3" HorizontalAlignment="Left" Height="31" Margin="246,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="38" FontSize="18" Text="N"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Height="31" Margin="270,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" FontSize="18"><Run Text="BPM And T"/><Run Language="hr-hr" Text="h"/><Run Text="e Highest"/></TextBlock>
+        <TextBlock x:Name="Number4" HorizontalAlignment="Left" Height="31" Margin="449,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="43" FontSize="18" Text="N"/>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Height="44" Margin="25,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="91" Text="Range:" FontSize="18"/>
+        <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Height="33" Margin="25,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Text="Average:" FontSize="18"/>
+        <TextBlock x:Name="Number5" HorizontalAlignment="Left" Height="44" Margin="125,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="35" FontSize="18" Text="N"/>
+        <TextBlock x:Name="textBlock7" HorizontalAlignment="Left" Height="32" Margin="147,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="91" FontSize="18"><Run Language="hr-hr" Text="BPM"/></TextBlock>
+        <TextBlock x:Name="Number6" HorizontalAlignment="Left" Height="33" Margin="125,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="35" FontSize="18" Text="N"/>
+        <TextBlock x:Name="textBlock7_Copy" HorizontalAlignment="Left" Height="30" Margin="147,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="91" FontSize="18"><Run Language="hr-hr" Text="BPM"/></TextBlock>
+
+    </Grid>
+</Page>

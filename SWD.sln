@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C8FBCE08-7704-4FD2-8492-43A7D373BE63}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWDprogram", "SWD_program\SWDprogram.csproj", "{9F5606C6-7732-4882-8F7D-69AB0E98A072}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWD_ClassLibrary", "SWD_ClassLibrary\SWD_ClassLibrary.csproj", "{084C03F3-8CBD-417C-B067-C192DDCDD94D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfApp1", "SWD_WPF_app\WpfApp1.csproj", "{17C74AD5-4EEA-4220-800B-AD632ACF57A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F5606C6-7732-4882-8F7D-69AB0E98A072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F5606C6-7732-4882-8F7D-69AB0E98A072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F5606C6-7732-4882-8F7D-69AB0E98A072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F5606C6-7732-4882-8F7D-69AB0E98A072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{084C03F3-8CBD-417C-B067-C192DDCDD94D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{084C03F3-8CBD-417C-B067-C192DDCDD94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{084C03F3-8CBD-417C-B067-C192DDCDD94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{084C03F3-8CBD-417C-B067-C192DDCDD94D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C74AD5-4EEA-4220-800B-AD632ACF57A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C74AD5-4EEA-4220-800B-AD632ACF57A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C74AD5-4EEA-4220-800B-AD632ACF57A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C74AD5-4EEA-4220-800B-AD632ACF57A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F5606C6-7732-4882-8F7D-69AB0E98A072} = {C8FBCE08-7704-4FD2-8492-43A7D373BE63}
+		{084C03F3-8CBD-417C-B067-C192DDCDD94D} = {C8FBCE08-7704-4FD2-8492-43A7D373BE63}
+		{17C74AD5-4EEA-4220-800B-AD632ACF57A8} = {C8FBCE08-7704-4FD2-8492-43A7D373BE63}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FC0D0E0-0312-4074-82B8-83BD31D559F8}
+	EndGlobalSection
+EndGlobal
